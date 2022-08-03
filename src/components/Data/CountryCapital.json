@@ -1,0 +1,56 @@
+[
+    {
+        "questionText": "What is the capital of France?",
+        "answerOptions": [
+            { "answerText": "Lyon", "isCorrect": false },
+            { "answerText": "Geneva", "isCorrect": false },
+            { "answerText": "Paris", "isCorrect": true },
+            { "answerText": "Marseille", "isCorrect": false }
+        ]
+    },
+    {
+        "questionText": "What is the capital of Turkey?",
+        "answerOptions": [
+            { "answerText": "İstanbul", "isCorrect": false },
+            { "answerText": "Ankara", "isCorrect": true },
+            { "answerText": "İzmir", "isCorrect": false },
+            { "answerText": "Mersin", "isCorrect": false }
+        ]
+    },
+    {
+        "questionText": "What is the capital of United States?",
+        "answerOptions": [
+            { "answerText": "New York", "isCorrect": false },
+            { "answerText": "California", "isCorrect": false },
+            { "answerText": "Los Angeles", "isCorrect": false },
+            { "answerText": "Washington D.C.", "isCorrect": true }
+        ]
+    },
+    {
+        "questionText": "What is the capital of United Kingdom?",
+        "answerOptions": [
+            { "answerText": "Belfast", "isCorrect": false },
+            { "answerText": "London", "isCorrect": true },
+            { "answerText": "Edinburgh", "isCorrect": false },
+            { "answerText": "Birmingham", "isCorrect": false }
+        ]
+    },
+    {
+        "questionText": "What is the capital of Germany?",
+        "answerOptions": [
+            { "answerText": "Berlin", "isCorrect": true },
+            { "answerText": "Hamburg", "isCorrect": false },
+            { "answerText": "Munich", "isCorrect": false },
+            { "answerText": "Frankfurt", "isCorrect": false }
+        ]
+    },
+    {
+        "questionText": "What is the capital of Japan?",
+        "answerOptions": [
+            { "answerText": "Kyoto", "isCorrect": false },
+            { "answerText": "Hiroshima", "isCorrect": false },
+            { "answerText": "Osaka", "isCorrect": false },
+            { "answerText": "Tokyo", "isCorrect": true }
+        ]
+    }
+]

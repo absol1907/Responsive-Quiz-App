@@ -52,5 +52,141 @@
             { "answerText": "Osaka", "isCorrect": false },
             { "answerText": "Tokyo", "isCorrect": true }
         ]
+    },
+    {
+        "questionText": "What is the capital of South Korea?",
+        "answerOptions": [
+            { "answerText": "Pyongyang", "isCorrect": false },
+            { "answerText": "Seoul", "isCorrect": true },
+            { "answerText": "Busan", "isCorrect": false },
+            { "answerText": "Incheon", "isCorrect": false }
+        ]
+    },
+    {
+        "questionText": "What is the capital of People's Republic of China?",
+        "answerOptions": [
+            { "answerText": "Beijing", "isCorrect": true },
+            { "answerText": "Taipei", "isCorrect": false },
+            { "answerText": "Hong Kong", "isCorrect": false },
+            { "answerText": "Macao", "isCorrect": false }
+        ]
+    },
+    {
+        "questionText": "What is the capital of Republic of China (Taiwan)?",
+        "answerOptions": [
+            { "answerText": "Hainan", "isCorrect": false },
+            { "answerText": "Tainan", "isCorrect": false },
+            { "answerText": "Taipei", "isCorrect": true },
+            { "answerText": "Shenzhen", "isCorrect": false }
+        ]
+    },
+    {
+        "questionText": "What is the capital of Russia?",
+        "answerOptions": [
+            { "answerText": "Vladivostok", "isCorrect": false },
+            { "answerText": "St. Petesburg", "isCorrect": false },
+            { "answerText": "Murmansk", "isCorrect": false },
+            { "answerText": "Moscow", "isCorrect": true }
+        ]
+    },
+    {
+        "questionText": "What is the capital of New Zealand?",
+        "answerOptions": [
+            { "answerText": "Cape Reinga", "isCorrect": false },
+            { "answerText": "Auckland", "isCorrect": false },
+            { "answerText": "Wellington", "isCorrect": true },
+            { "answerText": "Queenstown", "isCorrect": false }
+        ]
+    },
+    {
+        "questionText": "What is the capital of Ethiopia?",
+        "answerOptions": [
+            { "answerText": "Jimma", "isCorrect": false },
+            { "answerText": "Addis Ababa", "isCorrect": true },
+            { "answerText": "Hawassa", "isCorrect": false },
+            { "answerText": "Dire Dawa", "isCorrect": false }
+        ]
+    },
+    {
+        "questionText": "What is the capital of Chad?",
+        "answerOptions": [
+            { "answerText": "Djoki", "isCorrect": false },
+            { "answerText": "Kamina", "isCorrect": false },
+            { "answerText": "Am Timam", "isCorrect": false },
+            { "answerText": "N'Djamena", "isCorrect": true }
+        ]
+    },
+    {
+        "questionText": "What is the capital of Democratic Republic of Congo?",
+        "answerOptions": [
+            { "answerText": "Kananga", "isCorrect": false },
+            { "answerText": "Buta", "isCorrect": false },
+            { "answerText": "Kinshasa", "isCorrect": true },
+            { "answerText": "Yakoma", "isCorrect": false }
+        ]
+    },
+    {
+        "questionText": "What is the capital of Ecuador?",
+        "answerOptions": [
+            { "answerText": "Cuenca", "isCorrect": false },
+            { "answerText": "Santo Domingo", "isCorrect": false },
+            { "answerText": "Ambato", "isCorrect": false },
+            { "answerText": "Quito", "isCorrect": true }
+        ]
+    },
+    {
+        "questionText": "What is the capital of Suriname?",
+        "answerOptions": [
+            { "answerText": "Waterloo", "isCorrect": false },
+            { "answerText": "Paramaribo", "isCorrect": true },
+            { "answerText": "Kabalebo", "isCorrect": false },
+            { "answerText": "Moengo", "isCorrect": false }
+        ]
+    },
+    {
+        "questionText": "What is the capital of Serbia?",
+        "answerOptions": [
+            { "answerText": "Belgrade", "isCorrect": true },
+            { "answerText": "Arandelovac", "isCorrect": false },
+            { "answerText": "Darasova", "isCorrect": false },
+            { "answerText": "Barajevo", "isCorrect": false }
+        ]
+    },
+    {
+        "questionText": "What is the capital of Austria?",
+        "answerOptions": [
+            { "answerText": "Belgrade", "isCorrect": true },
+            { "answerText": "Arandelovac", "isCorrect": false },
+            { "answerText": "Darasova", "isCorrect": false },
+            { "answerText": "Barajevo", "isCorrect": false }
+        ]
+    },
+    {
+        "questionText": "What is the capital of Vietnam?",
+        "answerOptions": [
+            { "answerText": "Belgrade", "isCorrect": true },
+            { "answerText": "Arandelovac", "isCorrect": false },
+            { "answerText": "Darasova", "isCorrect": false },
+            { "answerText": "Barajevo", "isCorrect": false }
+        ]
+    },
+    {
+        "questionText": "What is the capital of Bangladesh?",
+        "answerOptions": [
+            { "answerText": "Belgrade", "isCorrect": true },
+            { "answerText": "Arandelovac", "isCorrect": false },
+            { "answerText": "Darasova", "isCorrect": false },
+            { "answerText": "Barajevo", "isCorrect": false }
+        ]
+    },
+    {
+        "questionText": "What is the capital of Bhutan?",
+        "answerOptions": [
+            { "answerText": "Belgrade", "isCorrect": true },
+            { "answerText": "Arandelovac", "isCorrect": false },
+            { "answerText": "Darasova", "isCorrect": false },
+            { "answerText": "Barajevo", "isCorrect": false }
+        ]
     }
+
 ]

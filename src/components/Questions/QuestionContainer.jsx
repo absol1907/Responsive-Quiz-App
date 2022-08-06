@@ -5,43 +5,65 @@ import style from "./QuestionContainer.module.scss"
 
 const QuestionContainer = () => {
 
-    const [currentQuestion, setCurrentQuestion] = useState(0);
+	const getRandomQuestion = (range,count) => {
+	
+		let nums = new Set();
+		while (nums.size < count) {
+			nums.add(Math.floor(Math.random() * (range - 1 + 1) + 1));
+		}
+		
+		return [...nums][0];
+	}
+
+	const [currentQuestion, setCurrentQuestion] = useState(getRandomQuestion(20,5));
 	const [showScore, setShowScore] = useState(false);
 	const [score, setScore] = useState(0);
+	const [count, setCount] = useState(1);
+	
+	
+	const handleTimer = () => {
 
+		if ({$seconds} == 0) {
+			setShowScore(true);
+		}
+	}
+	
+	
 	const handleAnswerOptionClick = (isCorrect) => {
+
 		if (isCorrect) {
 			alert("Correct Answer")
 			setScore(score + 1);
 		}
-
-		const nextQuestion = currentQuestion + 1;
-		if (nextQuestion < Questions.length) {
-			setCurrentQuestion(nextQuestion);
-		} else {
-			setShowScore(true);
+		const nextQuestions = getRandomQuestion(20,10);
+		if (count < 10) {
+			setCurrentQuestion(nextQuestions);
+			setCount(count + 1)
 		}
+		else {
+			setShowScore(true);
+		} 
 	};
 	const handleResetButton = () => {
-		setCurrentQuestion(0);
+		setCurrentQuestion(getRandomQuestion(20,5));
 		setShowScore(false);
 		setScore(0);
+		setCount(1);
 	};
-
 	
 
     return (
         <div className={style.QuestionContainer}>
 			{showScore ? (
 				<div className={style.QuestionContainer__scoreSection}>
-					You scored {score} out of {Questions.length}
+					You scored {score} out of {10}
 					<button  className= {style.button} onClick={() => handleResetButton()}>Play Again!</button>
 				</div>
 			) : (
 				<div>
 					<div className={style.QuestionContainer__questionSection}>
 						<div className={style.QuestionContainer__questionCount}>
-							<span>Question {currentQuestion + 1}</span>/{Questions.length}
+							<span>Question {count}</span>/{10}
 						</div>
 						<div className={style.QuestionContainer__questionText}>{Questions[currentQuestion].questionText}</div>
 					</div>

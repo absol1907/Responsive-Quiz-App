@@ -1,4 +1,5 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
+
 import Questions from "../Data/CountryCapital.json"
 
 import style from "./QuestionContainer.module.scss"
@@ -19,26 +20,33 @@ const QuestionContainer = () => {
 	const [showScore, setShowScore] = useState(false);
 	const [score, setScore] = useState(0);
 	const [count, setCount] = useState(1);
-	
-	
-	const handleTimer = () => {
+	const [seconds, setSeconds] = useState(60);
 
-		if ({$seconds} == 0) {
-			setShowScore(true);
-		}
-	}
-	
+    useEffect(() => {
+        let interval = null;
+        interval = setInterval(() => {
+            setSeconds(seconds => seconds - 1);
+          }, 1000);
+
+        if (seconds == 0) {
+            setShowScore(true);
+        }
+
+        return () => clearInterval(interval);
+        }, [seconds]);
 	
 	const handleAnswerOptionClick = (isCorrect) => {
 
 		if (isCorrect) {
 			alert("Correct Answer")
 			setScore(score + 1);
+			setSeconds(60);
 		}
 		const nextQuestions = getRandomQuestion(20,10);
 		if (count < 10) {
 			setCurrentQuestion(nextQuestions);
-			setCount(count + 1)
+			setCount(count + 1);
+			setSeconds(60);
 		}
 		else {
 			setShowScore(true);
@@ -49,6 +57,7 @@ const QuestionContainer = () => {
 		setShowScore(false);
 		setScore(0);
 		setCount(1);
+		setSeconds(60);
 	};
 	
 
@@ -61,6 +70,7 @@ const QuestionContainer = () => {
 				</div>
 			) : (
 				<div>
+					<div className={style.timer}> {seconds} </div>
 					<div className={style.QuestionContainer__questionSection}>
 						<div className={style.QuestionContainer__questionCount}>
 							<span>Question {count}</span>/{10}

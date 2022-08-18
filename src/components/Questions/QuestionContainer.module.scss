@@ -60,3 +60,19 @@
       }
       
   }
+
+  .timer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: auto;
+    padding: auto;
+    width: 35px;
+    height: 35px;
+    line-height: 30px;
+    
+    background: rgb(155, 155, 155);
+    border: 5px solid rgb(255, 7, 7);
+    border-radius: 15px;
+}

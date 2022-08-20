@@ -1,0 +1,19 @@
+.footer {
+    
+    box-sizing: border-box;
+    display: flex;
+    position: absolute;
+    justify-content:space-evenly;
+    min-width: 100%;
+    margin: 0px;
+    padding: 20px;
+    bottom: 0px;
+    right: 0px;
+
+    list-style-type: none;
+    column-count: 2;
+    column-gap: 25px;
+
+    background-color: gray;
+    font-style: italic;
+}

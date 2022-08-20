@@ -1,0 +1,31 @@
+.LandingPage {
+    
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    position: relative;
+    align-items: center;
+    text-align: center;
+
+
+.button {
+    width: 100%;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #ffffff;
+    background-color: #252d4a;
+    border-radius: 15px;
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 5px solid #234668;
+    cursor: pointer;
+      
+  }
+  .textColor {
+    color:#000000
+  }
+}

@@ -1,12 +1,13 @@
-import Card from "./components/Card/Card"
 import './App.scss'
-import LandingPage from "./components/Landing Page/LandingPage";
+import NavBar from './components/NavBar/NavBar';
+import Router from './components/Router/Router';
 
 function App() {
 
   return (
     <div className="App">
-      <LandingPage />
+      <NavBar/>
+      <Router/>
     </div>
   )
 }

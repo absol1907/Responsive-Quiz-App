@@ -18,10 +18,16 @@
     <li>Added landing page </li>
 </ul>
 
+<h3>Rev.4</h3>
+<ul>
+    <li>Added navigation bar</li>
+    <li>Added about page </li>
+    <li>Added settings page</li>
+    <li>Added leaderboard page </li>
+</ul>
+
 <h2>ToDo</h2>
 <ul>
-    <li>Add SideBar</li>
-    <li>Add Different Question Topics </li>
-    <li>Add Leaderboards </li>
+    <li>Fill the empty pages </li>
     <li>Connect Leaderboards to Firebase </li>
 </ul>
